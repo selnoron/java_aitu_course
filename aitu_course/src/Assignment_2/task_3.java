@@ -10,7 +10,7 @@ public class task_3 {
         System.out.println("↓↓↓↓↓↓↓↓↓↓↓↓");
 
         for (int i = 0; i < array.length; i++) {
-            if (i % 2 == 0) {
+            if (array[i] % 2 == 0) {
                 array[i] *= -1;
             }
         }
