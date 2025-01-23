@@ -1,10 +1,18 @@
 package Assignment_2;
+import Assignment_2.task_19f;
+
+import java.util.Arrays;
 
 public class task_18f {
+
+
     public static void main(String[] args) {
-        printHydrogenInfo();
-        System.out.println("-----------------------------");
-        printJavaInfo();
+        int[] array = new int[10];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i;
+        }
+        int[] reversed_array = task_19f.give_massive(array);
+        System.out.println(Arrays.toString(reversed_array));
     }
 
     public static void printHydrogenInfo() {
