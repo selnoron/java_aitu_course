@@ -2,7 +2,7 @@ package Assignment_4;
 
 import java.util.ArrayList;
 
-// City class
+
 class City implements Manageable {
     private String name;
     private ArrayList<Building> buildings;
