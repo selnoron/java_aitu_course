@@ -1,6 +1,6 @@
 package Assignment_4;
 
-// Room class
+
 class Room implements Manageable {
     private int number;
     private double area;

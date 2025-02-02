@@ -2,7 +2,7 @@ package Assignment_4;
 
 import java.util.ArrayList;
 
-// Building class
+
 class Building implements Manageable {
     private String street;
     private int houseNumber;

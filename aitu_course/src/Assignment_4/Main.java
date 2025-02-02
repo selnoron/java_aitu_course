@@ -3,12 +3,7 @@ package Assignment_4;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// Interface for manageable entities
-interface Manageable {
-    void displayInfo();
-}
 
-// Main class for testing
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
