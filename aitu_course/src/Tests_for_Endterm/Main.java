@@ -1,4 +1,4 @@
-package Tests_for_Assign4;
+package Tests_for_Endterm;
 
 import java.sql.*;
 public class Main {
